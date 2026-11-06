@@ -1,56 +1,63 @@
-# Welcome to your Expo app 👋
+# TodosApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi To Do sederhana dengan fitur CRUD, dibuat memakai React Native, Expo, dan Firebase Firestore.
 
-## Get started
+## Fitur
 
-1. Install dependencies
+- **Create**: menambah todo baru
+- **Read**: menampilkan daftar todo secara real-time, diurutkan dari yang terbaru
+- **Update**: mengubah isi todo lewat halaman Detail
+- **Delete**: menghapus todo dengan ikon tempat sampah
 
+## Teknologi
+
+- React Native
+- Expo
+- Firebase Firestore (v8)
+- React Navigation (Stack)
+
+## Struktur Project
+
+```
+TodosApp/
+├── App.js
+├── config.js
+├── package.json
+└── Screens/
+    ├── Home.js
+    └── Detail.js
+```
+
+## Cara Menjalankan
+
+1. Clone repository:
+   ```bash
+   git clone https://github.com/RoisAbdulFatah/TodosApp.git
+   cd TodosApp
+   ```
+
+2. Install dependensi:
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Buat project di [Firebase Console](https://console.firebase.google.com), aktifkan **Firestore Database**, lalu buat collection `todos`.
 
+4. Isi file `config.js` dengan konfigurasi Firebase milik Anda.
+
+5. Jalankan aplikasi:
    ```bash
-   npx expo start
+   npx expo start -c
    ```
 
-In the output, you'll find options to open the app in a
+6. Scan QR code memakai aplikasi **Expo Go** di HP (HP dan PC harus satu jaringan Wi-Fi).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Sumber Referensi
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Artikel: https://www.bagi2info.com/todosapp-sample-crud-react-native-expo-and-firebase/
+- Kode sumber: https://github.com/imrohit007/CRUD-React-Native-Expo-And-Firebase
+- Expo Snack: https://snack.expo.dev/@rudiahmad/crud-react-native-expo-and-firebase-todosapp
 
-## Get a fresh project
+## Pembuat
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Rois Abdul Fatah, Teknik Informatika, Universitas Langlangbuana

@@ -55,19 +55,19 @@ TodosApp/
 ## Screenshot
 
 ### Daftar Todo
-![Daftar Todo](Screenshots/1-Add-new-todo.jpeg)
+![Daftar Todo](Screenshots/1-Add-New-Todo.jpeg)
 
 ### Edit Todo
-![Edit Todo](Screenshots/2-edit-todo.jpeg)
+![Edit Todo](Screenshots/2-Update-Todo.jpeg)
 
 ### Setelah Diedit
-![Setelah Edit](Screenshots/3-setelah-edit.jpeg)
+![Setelah Edit](Screenshots/3-After-Update.jpeg)
 
 ### Setelah Dihapus
-![Setelah Hapus](Screenshots/4-setelah-hapus.jpeg)
+![Setelah Hapus](Screenshots/4-Delete-Todo.jpeg)
 
 ### Data di Firestore
-![Firestore](Screenshots/5-firestore.png)
+![Firestore](Screenshots/5-Firestore.png)
 
 ## Pembuat
 

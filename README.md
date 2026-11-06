@@ -67,7 +67,7 @@ TodosApp/
 ![Setelah Hapus](Screenshots/4-Delete-Todo.jpeg)
 
 ### Data di Firestore
-![Firestore](Screenshots/5-Firestore.png)
+![Firestore](Screenshots/5-Firestore.jpeg)
 
 ## Pembuat
 

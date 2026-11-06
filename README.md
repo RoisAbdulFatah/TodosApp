@@ -52,11 +52,22 @@ TodosApp/
 
 6. Scan QR code memakai aplikasi **Expo Go** di HP (HP dan PC harus satu jaringan Wi-Fi).
 
-## Sumber Referensi
+## Screenshot
 
-- Artikel: https://www.bagi2info.com/todosapp-sample-crud-react-native-expo-and-firebase/
-- Kode sumber: https://github.com/imrohit007/CRUD-React-Native-Expo-And-Firebase
-- Expo Snack: https://snack.expo.dev/@rudiahmad/crud-react-native-expo-and-firebase-todosapp
+### Daftar Todo
+![Daftar Todo](Screenshots/1-Add-new-todo.jpeg)
+
+### Edit Todo
+![Edit Todo](Screenshots/2-edit-todo.jpeg)
+
+### Setelah Diedit
+![Setelah Edit](Screenshots/3-setelah-edit.jpeg)
+
+### Setelah Dihapus
+![Setelah Hapus](Screenshots/4-setelah-hapus.jpeg)
+
+### Data di Firestore
+![Firestore](Screenshots/5-firestore.png)
 
 ## Pembuat
 

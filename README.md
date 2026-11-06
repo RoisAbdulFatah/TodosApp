@@ -2,6 +2,13 @@
 
 Aplikasi To Do sederhana dengan fitur CRUD, dibuat memakai React Native, Expo, dan Firebase Firestore.
 
+## Pembuat
+
+- Nama        : Rois Abdul Fatah
+- NIM         : 41155050240006
+- Mata Kuliah : Mobile Programming
+- Prodi       : Teknik Informatika
+
 ## Fitur
 
 - **Create**: menambah todo baru
@@ -68,7 +75,3 @@ TodosApp/
 
 ### Data di Firestore
 ![Firestore](Screenshots/5-Firestore.jpeg)
-
-## Pembuat
-
-Rois Abdul Fatah, Teknik Informatika, Universitas Langlangbuana
